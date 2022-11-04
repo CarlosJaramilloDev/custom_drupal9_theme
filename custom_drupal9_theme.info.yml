@@ -5,4 +5,3 @@ version: VERSION
 package: Other
 base theme: dkan_js_frontend_bartik
 core_version_requirement: ^8 || ^9
-core: 9.x
