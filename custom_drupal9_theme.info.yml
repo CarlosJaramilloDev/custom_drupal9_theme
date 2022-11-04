@@ -1,0 +1,7 @@
+name: Custom Drupal9 Theme 
+type: theme
+description: 'Custom Theme for Any Site made with Frupal 9. Carlos Jaramillo DEV.'
+version: VERSION
+base theme: dkan_js_frontend_bartik
+core_version_requirement: ^8 || ^9
+core: 9.x
