@@ -11,7 +11,7 @@ libraries:
   - "custom_drupal9_theme/global-scripts"
 
 libraries-override:
-  dkan_js_frontend_bartik/global-styling:
+  bartik/global-styling:
       css:
         theme:
           css/colors.css: false
