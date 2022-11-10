@@ -8,3 +8,4 @@ core_version_requirement: ^8 || ^9
 
 libraries:
   - "custom_drupal9_theme/global-styling"
+  - "custom_drupal9_theme/global-scripts"
