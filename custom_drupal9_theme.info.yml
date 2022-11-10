@@ -1,6 +1,6 @@
 name: Custom Drupal9 Theme 
 type: theme
-description: 'Custom Theme for Any Site made with Drupal 9. Carlos Jaramillo DEV.'
+description: 'Custom Theme for Any Site made with Drupal 9. Carlos Jaramillo DEV. Base theme: dkan_js_frontend_bartik'
 version: VERSION
 package: Other
 base theme: dkan_js_frontend_bartik
