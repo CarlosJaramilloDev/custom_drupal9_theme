@@ -14,4 +14,4 @@ libraries-override:
   bartik/global-styling:
       css:
         theme:
-          css: false
+          css/colors.css: false
