@@ -5,3 +5,6 @@ version: VERSION
 package: Other
 base theme: dkan_js_frontend_bartik
 core_version_requirement: ^8 || ^9
+
+libraries:
+  - "custom_drupal9_theme/global-styling"
