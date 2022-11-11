@@ -24,7 +24,7 @@ libraries-override:
 
           # css/components/block.css: false
           css/components/book.css: false
-          css/components/breadcrumb.css: false
+          # css/components/breadcrumb.css: false
           css/components/captions.css: false
           # css/components/comments.css: false
           css/components/container-inline.module.css: false
