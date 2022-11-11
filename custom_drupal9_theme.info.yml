@@ -62,7 +62,7 @@ libraries-override:
           css/components/table.css: false
           css/components/tablesort-indicator.css: false
           css/components/tabs.css: false
-          css/components/text-formatted.css: false
+          # css/components/text-formatted.css: false
           css/components/toolbar.css: false
           css/components/featured-bottom.css: false
           css/components/password-suggestions.css: false
