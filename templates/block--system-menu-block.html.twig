@@ -31,17 +31,6 @@
  * http://www.w3.org/TR/WCAG-TECHS/H42.html for more information.
  */
 #}
-{%
-  set classes = [
-    'block',
-    'block-menu',
-    'navigation',
-    'menu--' ~ derivative_plugin_id|clean_class,
-  ]
-%}
-{% set heading_id = attributes.id ~ '-menu'|clean_id %}
-{% set show_anchor = "show-" ~ attributes.id|clean_id %}
-{% set hide_anchor = "hide-" ~ attributes.id|clean_id %}
 
 <nav class="navbar container-home">
     <a href="./index.html" class="logo">
