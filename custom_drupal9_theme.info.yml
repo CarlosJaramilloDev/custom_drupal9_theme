@@ -15,4 +15,5 @@ libraries-override:
       css:
         theme:
           css/colors.css: false
+        base:
           css/base/elements.css: false
