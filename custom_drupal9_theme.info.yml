@@ -17,3 +17,7 @@ libraries-override:
           css/colors.css: false
         base:
           css/base/elements.css: false
+        components:
+          css/components/primary-menu.css: false
+          css/components/header.css: false
+          css/components/menu.css: false
