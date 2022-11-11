@@ -1,0 +1,23 @@
+.page-title {
+    font-size: 2.3em;
+}
+
+.node__meta {
+    font-size: 1em;
+}
+
+.node__content { 
+    font-size: 1.35em;
+    word-spacing: 1px;
+    line-height: 1.4em;
+}
+
+.header {
+    opacity: 0.56;
+    min-height: 25rem;
+    mix-blend-mode: color-burn;
+}
+
+.data-section {
+    background: #FFF;
+}
