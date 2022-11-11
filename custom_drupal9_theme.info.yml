@@ -21,7 +21,7 @@ libraries-override:
           css/components/primary-menu.css: false
           css/components/header.css: false
           css/components/menu.css: false
-  classy.base:
+  bartik/classy.base:
     css:
       component:
         css/classy/components/menu.css: false
