@@ -13,11 +13,18 @@
 }
 
 .header {
-    opacity: 0.56;
+    opacity: 0.6;
     min-height: 25rem;
     mix-blend-mode: color-burn;
+    background-color: black !important;
 }
 
 .data-section {
     background: #FFF;
+}
+
+.contact-section p {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
