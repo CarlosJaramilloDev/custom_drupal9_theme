@@ -1,9 +1,12 @@
+
 global-styling:
+  version: 1.0.1
   css:
     theme:
       css/style.css: {}
       css/theme-replace.css: {}
 
 global-scripts:
+  version: 1.0.1
   js:
     js/kit-fontawesome.js: {}
