@@ -12,14 +12,6 @@
     line-height: 1.4em;
 }
 
-.header {
-    opacity: 0.6;
-    /* min-height: 25rem; */
-    min-height: 220px;
-    mix-blend-mode: color-burn;
-    background-color: black !important;
-}
-
 .data-section {
     background: #FFF;
 }
