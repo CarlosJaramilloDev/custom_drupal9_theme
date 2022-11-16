@@ -1,12 +1,10 @@
 
 global-styling:
-  version: 2.0
   css:
     theme:
       css/main.css: {}
       css/theme-replace.css: {}
 
 global-scripts:
-  version: 2.0
   js:
     js/kit-fontawesome.js: {}
