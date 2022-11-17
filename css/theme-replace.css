@@ -12,16 +12,8 @@
     line-height: 1.4em;
 }
 
-/* .data-section {
-    background: #FFF;
-} */
-
 .contact-section p {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}
-
-.data-section .container-home {
-    padding: 4rem 6em;
 }
