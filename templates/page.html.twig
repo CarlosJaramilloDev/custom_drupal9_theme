@@ -53,27 +53,33 @@
   <header id="header header--small" class="header">
       {{ page.primary_menu }}
   </header>
-  {% if page.highlighted %}
-    <div class="highlighted">
-      <aside class="layout-container section clearfix" role="complementary">
-        {{ page.highlighted }}
-      </aside>
-    </div>
-  {% endif %}
-  {% if page.featured_top %}
-    <div class="featured-top">
-      <aside class="featured-top__inner section layout-container clearfix" role="complementary">
-        {{ page.featured_top }}
-      </aside>
-    </div>
-  {% endif %}
-  <main class="main">
-    <section class="data-section">
-        <div class="container-home">
-            {# {{ page.breadcrumb }} #}
-            {{ page.content }}
+  <nav class="breadcrumb">
+      <ol class="breadcrumb-list">
+          <li class="breadcrumb-item">
+              <a class="breadcrumb-link" href="">
+                  <i class="fa-solid fa-house"></i>
+              </a>
+          </li>
+          <li class="breadcrumb-item">
+              <a class="breadcrumb-link" href="">Medata</a>
+          </li>
+          <li class="breadcrumb-item">
+              <a class="breadcrumb-link" href="">Datos Abiertos</a>
+          </li>
+          <li class="breadcrumb-item">
+              <a class="breadcrumb-link" href="">Movilidad</a>
+          </li>
+      </ol>
+  </nav>
+  <div class="container movility">
+        <div class="sidenav">
         </div>
-    </section>
+
+        <div class="movility-content">
+          {{ page.content }}
+        </div>
+    </div>
+
     <section class="contact-section">
         <div class="container-home">
             <div class="grid">
@@ -160,4 +166,3 @@
             <img src="/themes/custom/custom_drupal9_theme/assets/images/item2.png">
         </div>
     </section>
-  </main>
