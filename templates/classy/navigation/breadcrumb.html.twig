@@ -20,7 +20,7 @@
         </a>
     </li>
     {% for item in breadcrumb %}
-      {% if item.text !== 'Home' and item.text !== 'home'%}
+      {% if item.text != 'Home' and item.text != 'home'%}
         <li class="breadcrumb-item">
           {% if item.url %}
             <a class="breadcrumb-link" href="{{ item.url }}">{{ item.text }}</a>
