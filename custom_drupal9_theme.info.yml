@@ -77,3 +77,4 @@ libraries-override:
       component:
         css/classy/components/menu.css: false
         css/classy/components/breadcrumb.css: false
+        css/classy/components/buttons.css: false
