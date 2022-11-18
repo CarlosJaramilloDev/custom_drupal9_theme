@@ -9,20 +9,26 @@
 #}
 {% if breadcrumb %}
   <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol>
     <li class="breadcrumb-item">
         <a class="breadcrumb-link" href="/">
             <i class="fa-solid fa-house"></i>
         </a>
     </li>
-    <ol>
+    <li class="breadcrumb-item">
+        <a class="breadcrumb-link" href="/"> Medata
+        </a>
+    </li>
     {% for item in breadcrumb %}
-      <li class="breadcrumb-item">
-        {% if item.url %}
-          <a class="breadcrumb-link" href="{{ item.url }}">{{ item.text }}</a>
-        {% else %}
-          <a class="breadcrumb-link" href="#">{{ item.text }}</a>
-        {% endif %}
-      </li>
+      {% if item.text !== 'Home' && item.text !== 'home'%}
+        <li class="breadcrumb-item">
+          {% if item.url %}
+            <a class="breadcrumb-link" href="{{ item.url }}">{{ item.text }}</a>
+          {% else %}
+            <a class="breadcrumb-link" href="#">{{ item.text }}</a>
+          {% endif %}
+        </li>
+      {% endif %}
     {% endfor %}
     </ol>
   </nav>
