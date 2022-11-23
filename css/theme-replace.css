@@ -23,3 +23,11 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
     padding: 0;
     box-sizing: inherit;
 }
+
+.breadcrumb-item+.breadcrumb-item:before {
+    content: none;
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
+}
