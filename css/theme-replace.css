@@ -29,5 +29,5 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 }
 
 .margin-bottom {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem !important;
 }
