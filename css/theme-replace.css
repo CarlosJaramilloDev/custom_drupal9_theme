@@ -40,4 +40,5 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 
 .breadcrumb-list {
     padding: 0;
+    overflow: hidden;
 }
