@@ -33,9 +33,16 @@
 #}
 
 <nav class="navbar container-home">
-    <a href="/" class="logo">
-        <img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
-    </a>
+    <div class="logos">
+        <a href="/" class="brand">
+            <img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia-vertical.png" alt="Logo alcaldía de Medellín">
+        </a>
+        <a href="/" class="logo">
+            <img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
+        </a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle"></label>
     <div class="burger" id="burger">
         <span class="burger-line"></span>
         <span class="burger-line"></span>
@@ -44,10 +51,6 @@
     {% block content %}
     <div class="menu" id="menu">
         {{ content }}
-        <a href="/search/"><img class="search" src="/themes/custom/custom_drupal9_theme/assets/icons/search.png" alt="Search"></a>
-        <a href="https://www.medellin.gov.co/" class="brand">
-            <img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia.png" alt="Logo alcaldía de Medellín">
-        </a>
     </div>
     {% endblock %}
 </nav>
