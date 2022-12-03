@@ -38,7 +38,7 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
     overflow: hidden;
 }
 
-.menu-link:hover, .contact-link {
+.menu-link:hover, .contact-link:hover {
     color: white;
     text-decoration: none;
 }
