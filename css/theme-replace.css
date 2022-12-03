@@ -23,12 +23,6 @@
 
 /* Medata Design */
 
-.contact-section p {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
 div.results-card-header p, div.results-card-body p, div.results-headings p, div.results-info p, div.result-tag p {
     margin: 0;
     padding: 0;
@@ -47,4 +41,8 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 .menu-link:hover {
     color: white;
     text-decoration: none;
+}
+
+.contact-list {
+    padding: 0;
 }
