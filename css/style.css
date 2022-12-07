@@ -519,7 +519,8 @@ body {
         padding: 2rem 1rem; } }
   .card .button {
     display: block;
-    margin: auto; }
+    margin: auto;
+    width: fit-content; }
 
 .container-home {
   max-width: 80vw;
