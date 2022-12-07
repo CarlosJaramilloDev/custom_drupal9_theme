@@ -517,7 +517,7 @@ body {
     @media (max-width: 992px) {
       .card-body {
         padding: 2rem 1rem; } }
-  .card button {
+  .card .button {
     display: block;
     margin: auto; }
 
