@@ -508,6 +508,8 @@ body {
   background: #FFF;
   width: 100%;
   border: 1px solid #F8F8F8; }
+  .card-header {
+    background-color: #FFF; }
   .card-header img {
     width: 100%;
     object-fit: cover; }
