@@ -98,27 +98,35 @@ body {
 .title--primary {
   font-family: 'Montserrat Bold';
   font-size: 1.8rem;
-  color: #53ace9; }
+  color: #53ace9;
+  text-decoration: none; }
 
 .title--grey {
   font-family: 'Montserrat Bold';
   font-size: 1.8rem;
-  color: #4C4D5F; }
+  color: #4C4D5F;
+  text-decoration: none; }
 
 .title--black {
   font-family: 'Montserrat Bold';
   font-size: 1.8rem;
-  color: #000; }
+  color: #000;
+  text-decoration: none; }
 
 .title--blue {
   font-family: 'Montserrat Bold';
   font-size: 1.8rem;
-  color: #022941; }
+  color: #022941;
+  text-decoration: none; }
 
 .title--purple {
   font-family: 'Montserrat Bold';
   font-size: 1.8rem;
-  color: #603CE6; }
+  color: #603CE6;
+  text-decoration: none; }
+
+.title:hover {
+  text-decoration: none; }
 
 .subtitle {
   font-family: 'Montserrat Regular';
@@ -507,13 +515,19 @@ body {
 .card {
   background: #FFF;
   width: 100%;
-  border: 1px solid #F8F8F8; }
+  border: 1px solid #F8F8F8;
+  overflow: hidden;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .card:hover {
+    box-shadow: 0 6px 15px -2px rgba(76, 77, 95, 0.3); }
   .card-header {
     background-color: #FFF;
-    padding: 0;}
-  .card-header img {
-    width: 100%;
-    object-fit: cover; }
+    padding: 0; }
+    .card-header img {
+      width: 100%;
+      object-fit: cover; }
   .card-body {
     text-align: start;
     padding: 2rem 3rem; }
@@ -521,9 +535,10 @@ body {
       .card-body {
         padding: 2rem 1rem; } }
   .card .button {
+    width: fit-content;
     display: block;
     margin: auto;
-    width: fit-content; }
+    text-decoration: none; }
 
 .container-home {
   max-width: 80vw;
@@ -602,15 +617,61 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem; } }
+  .category-section .category-icon {
+    transition: all .2s;
+    min-height: 40px;
+    margin-bottom: 1rem;
+    width: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
   .category-section .category-info {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
-    text-align: center; }
-    .category-section .category-info img {
-      max-height: 30px;
-      margin-bottom: 1rem; }
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 10px;
+    transition: all .2s;
+    justify-content: center;
+    cursor: pointer; }
+    .category-section .category-info:hover {
+      background: #FFF;
+      color: #fa8d2d;
+      box-shadow: 0 0 15px -2px rgba(76, 77, 95, 0.3); }
+      .category-section .category-info:hover .icon-gubernamental {
+        background-image: url("../assets/icons/topics/orange/icon-gubernamental.svg"); }
+      .category-section .category-info:hover .icon-ambiente {
+        background-image: url("../assets/icons/topics/orange/icon-ambiente.svg"); }
+      .category-section .category-info:hover .icon-cultura {
+        background-image: url("../assets/icons/topics/orange/icon-cultura.svg"); }
+      .category-section .category-info:hover .icon-desarrollo {
+        background-image: url("../assets/icons/topics/orange/icon-desarrollo.svg"); }
+      .category-section .category-info:hover .icon-economia {
+        background-image: url("../assets/icons/topics/orange/icon-economia.svg"); }
+      .category-section .category-info:hover .icon-educacion {
+        background-image: url("../assets/icons/topics/orange/icon-educacion.svg"); }
+      .category-section .category-info:hover .icon-hacienda {
+        background-image: url("../assets/icons/topics/orange/icon-hacienda.svg"); }
+      .category-section .category-info:hover .icon-infraestructura {
+        background-image: url("../assets/icons/topics/orange/icon-infraestructura.svg"); }
+      .category-section .category-info:hover .icon-movilidad {
+        background-image: url("../assets/icons/topics/orange/icon-movilidad.svg"); }
+      .category-section .category-info:hover .icon-ordenamiento {
+        background-image: url("../assets/icons/topics/orange/icon-ordenamiento.svg"); }
+      .category-section .category-info:hover .icon-poblacion {
+        background-image: url("../assets/icons/topics/orange/icon-poblacion.svg"); }
+      .category-section .category-info:hover .icon-salud {
+        background-image: url("../assets/icons/topics/orange/icon-salud.svg"); }
+      .category-section .category-info:hover .icon-social {
+        background-image: url("../assets/icons/topics/orange/icon-social.svg"); }
+      .category-section .category-info:hover .icon-territorios {
+        background-image: url("../assets/icons/topics/orange/icon-territorios.svg"); }
+      .category-section .category-info:hover .icon-vivienda {
+        background-image: url("../assets/icons/topics/orange/icon-vivienda.svg"); }
+      .category-section .category-info:hover .text {
+        color: #fa8d2d; }
 
 .newsletter-section {
   background: #3366cc; }
@@ -857,6 +918,81 @@ body {
     align-items: center; }
   .footer-brand img {
     max-height: 40px; }
+
+.icon-gubernamental {
+  background-image: url("../assets/icons/topics/black/icon-gubernamental.svg"); }
+  .icon-gubernamental:hover {
+    background-image: url("../assets/icons/topics/orange/icon-gubernamental.svg"); }
+
+.icon-ambiente {
+  background-image: url("../assets/icons/topics/black/icon-ambiente.svg"); }
+  .icon-ambiente:hover {
+    background-image: url("../assets/icons/topics/orange/icon-ambiente.svg"); }
+
+.icon-cultura {
+  background-image: url("../assets/icons/topics/black/icon-cultura.svg"); }
+  .icon-cultura:hover {
+    background-image: url("../assets/icons/topics/orange/icon-cultura.svg"); }
+
+.icon-desarrollo {
+  background-image: url("../assets/icons/topics/black/icon-desarrollo.svg"); }
+  .icon-desarrollo:hover {
+    background-image: url("../assets/icons/topics/orange/icon-desarrollo.svg"); }
+
+.icon-economia {
+  background-image: url("../assets/icons/topics/black/icon-economia.svg"); }
+  .icon-economia:hover {
+    background-image: url("../assets/icons/topics/orange/icon-economia.svg"); }
+
+.icon-educacion {
+  background-image: url("../assets/icons/topics/black/icon-educacion.svg"); }
+  .icon-educacion:hover {
+    background-image: url("../assets/icons/topics/orange/icon-educacion.svg"); }
+
+.icon-hacienda {
+  background-image: url("../assets/icons/topics/black/icon-hacienda.svg"); }
+  .icon-hacienda:hover {
+    background-image: url("../assets/icons/topics/orange/icon-hacienda.svg"); }
+
+.icon-infraestructura {
+  background-image: url("../assets/icons/topics/black/icon-infraestructura.svg"); }
+  .icon-infraestructura:hover {
+    background-image: url("../assets/icons/topics/orange/icon-infraestructura.svg"); }
+
+.icon-movilidad {
+  background-image: url("../assets/icons/topics/black/icon-movilidad.svg"); }
+  .icon-movilidad:hover {
+    background-image: url("../assets/icons/topics/orange/icon-movilidad.svg"); }
+
+.icon-ordenamiento {
+  background-image: url("../assets/icons/topics/black/icon-ordenamiento.svg"); }
+  .icon-ordenamiento:hover {
+    background-image: url("../assets/icons/topics/orange/icon-ordenamiento.svg"); }
+
+.icon-poblacion {
+  background-image: url("../assets/icons/topics/black/icon-poblacion.svg"); }
+  .icon-poblacion:hover {
+    background-image: url("../assets/icons/topics/orange/icon-poblacion.svg"); }
+
+.icon-salud {
+  background-image: url("../assets/icons/topics/black/icon-salud.svg"); }
+  .icon-salud:hover {
+    background-image: url("../assets/icons/topics/orange/icon-salud.svg"); }
+
+.icon-social {
+  background-image: url("../assets/icons/topics/black/icon-social.svg"); }
+  .icon-social:hover {
+    background-image: url("../assets/icons/topics/orange/icon-social.svg"); }
+
+.icon-territorios {
+  background-image: url("../assets/icons/topics/black/icon-territorios.svg"); }
+  .icon-territorios:hover {
+    background-image: url("../assets/icons/topics/orange/icon-territorios.svg"); }
+
+.icon-vivienda {
+  background-image: url("../assets/icons/topics/black/icon-vivienda.svg"); }
+  .icon-vivienda:hover {
+    background-image: url("../assets/icons/topics/orange/icon-vivienda.svg"); }
 
 .movility {
   display: grid;
