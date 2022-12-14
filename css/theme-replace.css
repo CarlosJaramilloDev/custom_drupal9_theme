@@ -53,6 +53,10 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
     padding: 0;
 }
 
+.block .content {
+    margin-top: 0px;
+}
+
 
 /** Adds */
 *, :after, :before {
