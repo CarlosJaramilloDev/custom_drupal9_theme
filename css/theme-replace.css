@@ -19,6 +19,12 @@
     content: none;
 }
 
+@media (max-width: 992px){
+    .breadcrumb-list {
+        width: 80vw;
+    }
+}
+
 
 
 /* Medata Design */
@@ -45,4 +51,10 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 
 .contact-list {
     padding: 0;
+}
+
+
+/** Adds */
+*, :after, :before {
+    box-sizing: border-box;
 }
