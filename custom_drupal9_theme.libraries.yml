@@ -2,8 +2,9 @@
 global-styling:
   css:
     theme:
+      css/bootstrap.css: {}
       css/style.css: {}
-      css/theme-replace.css: {}
+      css/theme-replace.css: {}  
 
 global-scripts:
   js:
