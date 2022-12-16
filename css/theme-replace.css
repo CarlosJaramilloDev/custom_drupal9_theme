@@ -15,7 +15,7 @@
 
 
 /* Bootstrap */
-.breadcrumb-item+.breadcrumb-item:before {
+/* .breadcrumb-item+.breadcrumb-item:before {
     content: none;
 }
 
@@ -23,7 +23,7 @@
     .breadcrumb-list {
         width: 80vw;
     }
-}
+} */
 
 
 
@@ -59,6 +59,6 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 
 
 /** Adds */
-*, :after, :before {
+/* *, :after, :before {
     box-sizing: border-box;
-}
+} */
