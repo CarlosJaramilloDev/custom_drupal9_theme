@@ -33,24 +33,32 @@
 #}
 
 <nav class="navbar container-home">
-    <div class="logos">
-        <a href="/" class="brand">
-            <img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia-vertical.png" alt="Logo alcaldía de Medellín">
-        </a>
-        <a href="/" class="logo">
-            <img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
-        </a>
-    </div>
-    <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle"></label>
-    <div class="burger" id="burger">
-        <span class="burger-line"></span>
-        <span class="burger-line"></span>
-        <span class="burger-line"></span>
-    </div>
-    {% block content %}
-    <div class="menu" id="menu">
-        {{ content }}
-    </div>
-    {% endblock %}
+	<div class="logos">
+		<a href="https://www.medellin.gov.co/" class="brand">
+			<img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia-vertical.png" alt="Logo alcaldía de Medellín">
+		</a>
+		<a href="/" class="logo">
+			<img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
+		</a>
+	</div>
+	<input id="menu-toggle" type="checkbox"/>
+	<label class='menu-button-container' for="menu-toggle"></label>
+	<div class="burger" id="burger">
+		<span class="burger-line"></span>
+		<span class="burger-line"></span>
+		<span class="burger-line"></span>
+	</div>
+	{% block content %}
+		<div class="menu" id="menu">
+			<div class="logos-mobile">
+				<a href="https://www.medellin.gov.co/" class="brand">
+					<img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia-vertical.png" alt="Logo alcaldía de Medellín">
+				</a>
+				<a href="/" class="logo">
+					<img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
+				</a>
+			</div>
+			{{ content }}
+		</div>
+	{% endblock %}
 </nav>
