@@ -338,7 +338,8 @@ body {
   left: 3rem;
   position: absolute;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  visibility: hidden; }
 
 .menu-button-container {
   display: none;
@@ -370,7 +371,8 @@ body {
   z-index: 999;
   padding-top: 15rem; }
   #menu-toggle:checked ~ .menu .logos-mobile {
-    display: block; }
+    display: block;
+    visibility: visible; }
     #menu-toggle:checked ~ .menu .logos-mobile .brand {
       position: relative;
       bottom: 0; }
