@@ -24,6 +24,10 @@
     width: 20px;
 }
 
+.dc-search-sidebar-options .toggle-block button {
+    font-size: 1.4rem;
+}
+
 /* Bootstrap */
 /* .breadcrumb-item+.breadcrumb-item:before {
     content: none;
