@@ -50,15 +50,17 @@
 	</div>
 	{% block content %}
 		<div class="menu" id="menu">
-			<div class="logos-mobile">
-				<a href="https://www.medellin.gov.co/" class="brand">
-					<img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia-vertical.png" alt="Logo alcaldía de Medellín">
-				</a>
-				<a href="/" class="logo">
-					<img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
-				</a>
+			<div class="menu-container">
+				<div class="logos-mobile">
+					<a href="https://www.medellin.gov.co/" class="brand">
+						<img src="/themes/custom/custom_drupal9_theme/assets/images/logo-alcaldia-vertical.png" alt="Logo alcaldía de Medellín">
+					</a>
+					<a href="/" class="logo">
+						<img src="/themes/custom/custom_drupal9_theme/assets/images/logo.png" alt="Logo MeData">
+					</a>
+				</div>
+				{{ content }}
 			</div>
-			{{ content }}
 		</div>
 	{% endblock %}
 </nav>
