@@ -28,17 +28,12 @@
     font-size: 1.4rem;
 }
 
-/* Bootstrap */
-/* .breadcrumb-item+.breadcrumb-item:before {
-    content: none;
+.dc-search-sidebar-options .show-more-container .dc-facet-option {
+    align-items: left;
+    padding: 0;
 }
 
-@media (max-width: 992px){
-    .breadcrumb-list {
-        width: 80vw;
-    }
-} */
-
+/* Bootstrap */
 
 
 /* Medata Design */
@@ -71,8 +66,6 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
     margin-top: 0px;
 }
 
-
-/** Adds */
-/* *, :after, :before {
-    box-sizing: border-box;
-} */
+.sidenav {
+    text-align: left;
+}
