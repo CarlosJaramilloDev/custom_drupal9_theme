@@ -69,3 +69,7 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 .sidenav {
     text-align: left;
 }
+
+.data-section .data-group .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
