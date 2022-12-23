@@ -73,3 +73,7 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 .data-section .data-group .grid {
     grid-template-columns: repeat(3, 1fr);
 }
+
+.data-actions {
+    width: 100%;
+}
