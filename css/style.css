@@ -182,8 +182,36 @@ body {
   background-size: cover;
   background-position: top center;
   min-height: 30rem;
-  overflow-x: hidden;
-  position: relative; }
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+  top: 0; }
+  .header .container-text {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    width: 80vw;
+    right: 0;
+    left: 0;
+    padding: 5rem 6rem 1rem 6rem;
+    margin: auto; }
+    @media (max-width: 768px) {
+      .header .container-text {
+        padding: 4rem 6rem 1rem 6rem;
+        width: 90vw;
+        bottom: -2rem; } }
+    @media (max-width: 540px) {
+      .header .container-text {
+        padding: 4rem 4rem 1rem 4rem;
+        width: 90vw;
+        bottom: -4rem; } }
+    @media (max-width: 470px) {
+      .header .container-text {
+        bottom: -8rem; } }
+    @media (max-width: 350px) {
+      .header .container-text {
+        bottom: -11rem;
+        padding: 3rem 4rem 1rem 4rem; } }
   .header--small {
     height: auto;
     min-height: auto; }
@@ -266,7 +294,7 @@ body {
   transform: rotate(0deg);
   transition: 0.35s ease;
   right: 2rem; }
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 768px) {
     .burger {
       display: none;
       visibility: hidden; } }
@@ -425,7 +453,7 @@ body {
     transform: rotate(-135deg);
     width: 100%; }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .menu-button-container {
     display: flex; }
   .menu {
@@ -601,7 +629,7 @@ body {
 .main {
   width: 100%;
   position: relative;
-  margin-top: -11.5rem;
+  margin-top: 30rem;
   overflow-x: hidden; }
 
 .data-section {
@@ -658,7 +686,7 @@ body {
     padding: 6rem; }
     @media (max-width: 768px) {
       .category-section .container-home {
-        padding: 6rem 4rem; } }
+        padding: 6rem 2rem; } }
   .category-section .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -746,6 +774,9 @@ body {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 1rem; } }
+  @media (max-width: 768px) {
+    .newsletter-info-title {
+      flex-direction: column; } }
   .newsletter-info img {
     width: 50px;
     margin-right: 1rem; }
