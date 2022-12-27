@@ -36,7 +36,7 @@ window.addEventListener('load', function () {
             window.location.reload();
           },
           buttonText: 'Cerrar menú',
-          id: 1,
+          id: 2,
           toggle: false,
           icon: 'close',
           emoji: 'X'
