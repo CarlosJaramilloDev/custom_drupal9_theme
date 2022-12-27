@@ -30,11 +30,18 @@ window.addEventListener('load', function () {
           toggle: false,
           icon: 'restore_alt',
           emoji: '❓'
+        },
+        {
+          method: (cf, state) => {
+            window.location.reload();
+          },
+          buttonText: 'Cerrar menú',
+          id: 1,
+          toggle: false,
+          icon: 'close',
+          emoji: '❓'
         }
-      ],
-      animations: {
-        buttons: false
-      }
+      ]
     };
     new Accessibility(options);
   }, false);
