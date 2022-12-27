@@ -36,9 +36,9 @@ window.addEventListener('load', function () {
             window.location.reload();
           },
           buttonText: 'Cerrar menú',
-          id: 2,
+          id: 0,
           toggle: false,
-          icon: 'close',
+          icon: 'close_alt',
           emoji: 'X'
         }
       ]
