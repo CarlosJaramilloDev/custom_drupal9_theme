@@ -36,10 +36,10 @@ window.addEventListener('load', function () {
             window.location.reload();
           },
           buttonText: 'Cerrar menú',
-          id: 1,
+          id: 10,
           toggle: false,
           icon: 'close',
-          emoji: '❓'
+          emoji: 'X'
         }
       ]
     };
