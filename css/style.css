@@ -200,17 +200,22 @@ body {
         padding: 4rem 6rem 1rem 6rem;
         width: 90vw;
         bottom: -2rem; } }
+    @media (max-width: 565px) {
+      .header .container-text {
+        padding: 4rem 2rem 1rem 2rem;
+        width: 90vw;
+        bottom: -4rem; } }
     @media (max-width: 540px) {
       .header .container-text {
         padding: 4rem 2rem 1rem 2rem;
         width: 90vw;
-        bottom: -2rem; } }
+        bottom: -4rem; } }
     @media (max-width: 470px) {
       .header .container-text {
-        bottom: -4rem; } }
+        bottom: -8rem; } }
     @media (max-width: 350px) {
       .header .container-text {
-        bottom: -8rem;
+        bottom: -12rem;
         padding: 3rem 2rem 1rem 2rem; } }
   .header--small {
     height: auto;
