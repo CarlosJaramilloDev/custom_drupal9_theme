@@ -236,14 +236,19 @@ body {
   width: 100%;
   padding: 1rem 0; }
   .navbar .logo img {
-    max-height: 80px;
     max-height: 70px;
     margin-left: 1rem; }
+    @media (max-width: 768px) {
+      .navbar .logo img {
+        max-height: 50px; } }
   .navbar .search {
     width: 35px;
     margin: 0 2rem; }
   .navbar .brand img {
     max-height: 70px; }
+    @media (max-width: 768px) {
+      .navbar .brand img {
+        max-height: 50px; } }
 
 .menu {
   display: flex;
@@ -963,10 +968,11 @@ body {
   flex-direction: column; }
   .contact-social-container p {
     margin: 2rem 0; }
-  .contact-social-container .logo {
-    width: 150px; }
-    .contact-social-container .logo img {
-      width: 100%; }
+  .contact-social-container .logo img {
+    max-height: 90px; }
+    @media (max-width: 768px) {
+      .contact-social-container .logo img {
+        max-height: 70px; } }
 
 .contact-social-list {
   display: flex;
