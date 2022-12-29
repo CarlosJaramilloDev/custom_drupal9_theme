@@ -33,6 +33,11 @@
     padding: 0;
 }
 
+.field.field--name-field-imagen-preview.field--type-image.field--label-hidden.field__item a img {
+    width: 100%;
+    height: auto;
+}
+
 /* Bootstrap */
 
 
