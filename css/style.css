@@ -731,36 +731,58 @@ body {
       background: #FFF;
       color: #fa8d2d;
       box-shadow: 0 0 15px -2px rgba(76, 77, 95, 0.3); }
-      .category-section .category-info:hover .icon-gubernamental {
-        background-image: url("../assets/icons/topics/orange/icon-gubernamental.svg"); }
-      .category-section .category-info:hover .icon-ambiente {
-        background-image: url("../assets/icons/topics/orange/icon-ambiente.svg"); }
-      .category-section .category-info:hover .icon-cultura {
-        background-image: url("../assets/icons/topics/orange/icon-cultura.svg"); }
-      .category-section .category-info:hover .icon-desarrollo {
-        background-image: url("../assets/icons/topics/orange/icon-desarrollo.svg"); }
-      .category-section .category-info:hover .icon-economia {
-        background-image: url("../assets/icons/topics/orange/icon-economia.svg"); }
-      .category-section .category-info:hover .icon-educacion {
-        background-image: url("../assets/icons/topics/orange/icon-educacion.svg"); }
-      .category-section .category-info:hover .icon-hacienda {
-        background-image: url("../assets/icons/topics/orange/icon-hacienda.svg"); }
-      .category-section .category-info:hover .icon-infraestructura {
-        background-image: url("../assets/icons/topics/orange/icon-infraestructura.svg"); }
-      .category-section .category-info:hover .icon-movilidad {
-        background-image: url("../assets/icons/topics/orange/icon-movilidad.svg"); }
-      .category-section .category-info:hover .icon-ordenamiento {
-        background-image: url("../assets/icons/topics/orange/icon-ordenamiento.svg"); }
-      .category-section .category-info:hover .icon-poblacion {
-        background-image: url("../assets/icons/topics/orange/icon-poblacion.svg"); }
-      .category-section .category-info:hover .icon-salud {
-        background-image: url("../assets/icons/topics/orange/icon-salud.svg"); }
-      .category-section .category-info:hover .icon-social {
-        background-image: url("../assets/icons/topics/orange/icon-social.svg"); }
-      .category-section .category-info:hover .icon-territorios {
-        background-image: url("../assets/icons/topics/orange/icon-territorios.svg"); }
-      .category-section .category-info:hover .icon-vivienda {
-        background-image: url("../assets/icons/topics/orange/icon-vivienda.svg"); }
+      .category-section .category-info:hover .icon-01 {
+        background-image: url("../assets/icons/topics/orange/01_naranja.svg"); }
+      .category-section .category-info:hover .icon-02 {
+        background-image: url("../assets/icons/topics/orange/02_naranja.svg"); }
+      .category-section .category-info:hover .icon-03 {
+        background-image: url("../assets/icons/topics/orange/03_naranja.svg"); }
+      .category-section .category-info:hover .icon-04 {
+        background-image: url("../assets/icons/topics/orange/04_naranja.svg"); }
+      .category-section .category-info:hover .icon-05 {
+        background-image: url("../assets/icons/topics/orange/05_naranja.svg"); }
+      .category-section .category-info:hover .icon-06 {
+        background-image: url("../assets/icons/topics/orange/06_naranja.svg"); }
+      .category-section .category-info:hover .icon-07 {
+        background-image: url("../assets/icons/topics/orange/07_naranja.svg"); }
+      .category-section .category-info:hover .icon-08 {
+        background-image: url("../assets/icons/topics/orange/08_naranja.svg"); }
+      .category-section .category-info:hover .icon-09 {
+        background-image: url("../assets/icons/topics/orange/09_naranja.svg"); }
+      .category-section .category-info:hover .icon-10 {
+        background-image: url("../assets/icons/topics/orange/10_naranja.svg"); }
+      .category-section .category-info:hover .icon-11 {
+        background-image: url("../assets/icons/topics/orange/11_naranja.svg"); }
+      .category-section .category-info:hover .icon-12 {
+        background-image: url("../assets/icons/topics/orange/12_naranja.svg"); }
+      .category-section .category-info:hover .icon-13 {
+        background-image: url("../assets/icons/topics/orange/13_naranja.svg"); }
+      .category-section .category-info:hover .icon-14 {
+        background-image: url("../assets/icons/topics/orange/14_naranja.svg"); }
+      .category-section .category-info:hover .icon-15 {
+        background-image: url("../assets/icons/topics/orange/15_naranja.svg"); }
+      .category-section .category-info:hover .icon-16 {
+        background-image: url("../assets/icons/topics/orange/16_naranja.svg"); }
+      .category-section .category-info:hover .icon-17 {
+        background-image: url("../assets/icons/topics/orange/17_naranja.svg"); }
+      .category-section .category-info:hover .icon-18 {
+        background-image: url("../assets/icons/topics/orange/18_naranja.svg"); }
+      .category-section .category-info:hover .icon-19 {
+        background-image: url("../assets/icons/topics/orange/19_naranja.svg"); }
+      .category-section .category-info:hover .icon-20 {
+        background-image: url("../assets/icons/topics/orange/20_naranja.svg"); }
+      .category-section .category-info:hover .icon-21 {
+        background-image: url("../assets/icons/topics/orange/21_naranja.svg"); }
+      .category-section .category-info:hover .icon-22 {
+        background-image: url("../assets/icons/topics/orange/22_naranja.svg"); }
+      .category-section .category-info:hover .icon-23 {
+        background-image: url("../assets/icons/topics/orange/23_naranja.svg"); }
+      .category-section .category-info:hover .icon-24 {
+        background-image: url("../assets/icons/topics/orange/24_naranja.svg"); }
+      .category-section .category-info:hover .icon-25 {
+        background-image: url("../assets/icons/topics/orange/25_naranja.svg"); }
+      .category-section .category-info:hover .icon-26 {
+        background-image: url("../assets/icons/topics/orange/26_naranja.svg"); }
       .category-section .category-info:hover .text {
         color: #fa8d2d; }
 
@@ -1041,80 +1063,135 @@ body {
   .footer-brand img {
     max-height: 40px; }
 
-.icon-gubernamental {
-  background-image: url("../assets/icons/topics/black/icon-gubernamental.svg"); }
-  .icon-gubernamental:hover {
-    background-image: url("../assets/icons/topics/orange/icon-gubernamental.svg"); }
+.icon-01 {
+  background-image: url("../assets/icons/topics/black/01_negro.svg"); }
+  .icon-01:hover {
+    background-image: url("../assets/icons/topics/orange/01_naranja.svg"); }
 
-.icon-ambiente {
-  background-image: url("../assets/icons/topics/black/icon-ambiente.svg"); }
-  .icon-ambiente:hover {
-    background-image: url("../assets/icons/topics/orange/icon-ambiente.svg"); }
+.icon-02 {
+  background-image: url("../assets/icons/topics/black/02_negro.svg"); }
+  .icon-02:hover {
+    background-image: url("../assets/icons/topics/orange/02_naranja.svg"); }
 
-.icon-cultura {
-  background-image: url("../assets/icons/topics/black/icon-cultura.svg"); }
-  .icon-cultura:hover {
-    background-image: url("../assets/icons/topics/orange/icon-cultura.svg"); }
+.icon-03 {
+  background-image: url("../assets/icons/topics/black/03_negro.svg"); }
+  .icon-03:hover {
+    background-image: url("../assets/icons/topics/orange/03_naranja.svg"); }
 
-.icon-desarrollo {
-  background-image: url("../assets/icons/topics/black/icon-desarrollo.svg"); }
-  .icon-desarrollo:hover {
-    background-image: url("../assets/icons/topics/orange/icon-desarrollo.svg"); }
+.icon-04 {
+  background-image: url("../assets/icons/topics/black/04_negro.svg"); }
+  .icon-04:hover {
+    background-image: url("../assets/icons/topics/orange/04_naranja.svg"); }
 
-.icon-economia {
-  background-image: url("../assets/icons/topics/black/icon-economia.svg"); }
-  .icon-economia:hover {
-    background-image: url("../assets/icons/topics/orange/icon-economia.svg"); }
+.icon-05 {
+  background-image: url("../assets/icons/topics/black/05_negro.svg"); }
+  .icon-05:hover {
+    background-image: url("../assets/icons/topics/orange/05_naranja.svg"); }
 
-.icon-educacion {
-  background-image: url("../assets/icons/topics/black/icon-educacion.svg"); }
-  .icon-educacion:hover {
-    background-image: url("../assets/icons/topics/orange/icon-educacion.svg"); }
+.icon-06 {
+  background-image: url("../assets/icons/topics/black/06_negro.svg"); }
+  .icon-06:hover {
+    background-image: url("../assets/icons/topics/orange/06_naranja.svg"); }
 
-.icon-hacienda {
-  background-image: url("../assets/icons/topics/black/icon-hacienda.svg"); }
-  .icon-hacienda:hover {
-    background-image: url("../assets/icons/topics/orange/icon-hacienda.svg"); }
+.icon-07 {
+  background-image: url("../assets/icons/topics/black/07_negro.svg"); }
+  .icon-07:hover {
+    background-image: url("../assets/icons/topics/orange/07_naranja.svg"); }
 
-.icon-infraestructura {
-  background-image: url("../assets/icons/topics/black/icon-infraestructura.svg"); }
-  .icon-infraestructura:hover {
-    background-image: url("../assets/icons/topics/orange/icon-infraestructura.svg"); }
+.icon-08 {
+  background-image: url("../assets/icons/topics/black/08_negro.svg"); }
+  .icon-08:hover {
+    background-image: url("../assets/icons/topics/orange/08_naranja.svg"); }
 
-.icon-movilidad {
-  background-image: url("../assets/icons/topics/black/icon-movilidad.svg"); }
-  .icon-movilidad:hover {
-    background-image: url("../assets/icons/topics/orange/icon-movilidad.svg"); }
+.icon-09 {
+  background-image: url("../assets/icons/topics/black/09_negro.svg"); }
+  .icon-09:hover {
+    background-image: url("../assets/icons/topics/orange/09_naranja.svg"); }
 
-.icon-ordenamiento {
-  background-image: url("../assets/icons/topics/black/icon-ordenamiento.svg"); }
-  .icon-ordenamiento:hover {
-    background-image: url("../assets/icons/topics/orange/icon-ordenamiento.svg"); }
+.icon-10 {
+  background-image: url("../assets/icons/topics/black/10_negro.svg"); }
+  .icon-10:hover {
+    background-image: url("../assets/icons/topics/orange/10_naranja.svg"); }
 
-.icon-poblacion {
-  background-image: url("../assets/icons/topics/black/icon-poblacion.svg"); }
-  .icon-poblacion:hover {
-    background-image: url("../assets/icons/topics/orange/icon-poblacion.svg"); }
+.icon-11 {
+  background-image: url("../assets/icons/topics/black/11_negro.svg"); }
+  .icon-11:hover {
+    background-image: url("../assets/icons/topics/orange/11_naranja.svg"); }
 
-.icon-salud {
-  background-image: url("../assets/icons/topics/black/icon-salud.svg"); }
-  .icon-salud:hover {
-    background-image: url("../assets/icons/topics/orange/icon-salud.svg"); }
+.icon-12 {
+  background-image: url("../assets/icons/topics/black/12_negro.svg"); }
+  .icon-12:hover {
+    background-image: url("../assets/icons/topics/orange/12_naranja.svg"); }
 
-.icon-social {
-  background-image: url("../assets/icons/topics/black/icon-social.svg"); }
-  .icon-social:hover {
-    background-image: url("../assets/icons/topics/orange/icon-social.svg"); }
+.icon-13 {
+  background-image: url("../assets/icons/topics/black/13_negro.svg"); }
+  .icon-13:hover {
+    background-image: url("../assets/icons/topics/orange/13_naranja.svg"); }
 
-.icon-territorios {
-  background-image: url("../assets/icons/topics/black/icon-territorios.svg"); }
-  .icon-territorios:hover {
-    background-image: url("../assets/icons/topics/orange/icon-territorios.svg"); }
+.icon-14 {
+  background-image: url("../assets/icons/topics/black/14_negro.svg"); }
+  .icon-14:hover {
+    background-image: url("../assets/icons/topics/orange/14_naranja.svg"); }
 
-.icon-vivienda {
-  background-image: url("../assets/icons/topics/black/icon-vivienda.svg"); }
-  .icon-vivienda:hover {
-    background-image: url("../assets/icons/topics/orange/icon-vivienda.svg"); }
+.icon-15 {
+  background-image: url("../assets/icons/topics/black/15_negro.svg"); }
+  .icon-15:hover {
+    background-image: url("../assets/icons/topics/orange/15_naranja.svg"); }
+
+.icon-16 {
+  background-image: url("../assets/icons/topics/black/16_negro.svg"); }
+  .icon-16:hover {
+    background-image: url("../assets/icons/topics/orange/16_naranja.svg"); }
+
+.icon-17 {
+  background-image: url("../assets/icons/topics/black/17_negro.svg"); }
+  .icon-17:hover {
+    background-image: url("../assets/icons/topics/orange/17_naranja.svg"); }
+
+.icon-18 {
+  background-image: url("../assets/icons/topics/black/18_negro.svg"); }
+  .icon-18:hover {
+    background-image: url("../assets/icons/topics/orange/18_naranja.svg"); }
+
+.icon-19 {
+  background-image: url("../assets/icons/topics/black/19_negro.svg"); }
+  .icon-19:hover {
+    background-image: url("../assets/icons/topics/orange/19_naranja.svg"); }
+
+.icon-20 {
+  background-image: url("../assets/icons/topics/black/20_negro.svg"); }
+  .icon-20:hover {
+    background-image: url("../assets/icons/topics/orange/20_naranja.svg"); }
+
+.icon-21 {
+  background-image: url("../assets/icons/topics/black/21_negro.svg"); }
+  .icon-21:hover {
+    background-image: url("../assets/icons/topics/orange/21_naranja.svg"); }
+
+.icon-22 {
+  background-image: url("../assets/icons/topics/black/22_negro.svg"); }
+  .icon-22:hover {
+    background-image: url("../assets/icons/topics/orange/22_naranja.svg"); }
+
+.icon-23 {
+  background-image: url("../assets/icons/topics/black/23_negro.svg"); }
+  .icon-23:hover {
+    background-image: url("../assets/icons/topics/orange/23_naranja.svg"); }
+
+.icon-24 {
+  background-image: url("../assets/icons/topics/black/24_negro.svg"); }
+  .icon-24:hover {
+    background-image: url("../assets/icons/topics/orange/24_naranja.svg"); }
+
+.icon-25 {
+  background-image: url("../assets/icons/topics/black/25_negro.svg"); }
+  .icon-25:hover {
+    background-image: url("../assets/icons/topics/orange/25_naranja.svg"); }
+
+.icon-26 {
+  background-image: url("../assets/icons/topics/black/26_negro.svg"); }
+  .icon-26:hover {
+    background-image: url("../assets/icons/topics/orange/26_naranja.svg"); }
 
 .movility {
   display: grid;
