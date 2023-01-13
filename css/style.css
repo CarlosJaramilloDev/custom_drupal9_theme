@@ -110,6 +110,21 @@ body {
   font-size: 1.8rem;
   color: #53ace9;
   text-decoration: none; }
+  .title--primary:hover {
+    font-family: 'Montserrat Bold';
+    font-size: 1.8rem;
+    color: #53ace9;
+    text-decoration: none; }
+  .title--primary:focus {
+    font-family: 'Montserrat Bold';
+    font-size: 1.8rem;
+    color: #53ace9;
+    text-decoration: none; }
+  .title--primary:visited {
+    font-family: 'Montserrat Bold';
+    font-size: 1.8rem;
+    color: #53ace9;
+    text-decoration: none; }
 
 .title--grey {
   font-family: 'Montserrat Bold';
@@ -186,6 +201,8 @@ body {
   width: 100vw;
   z-index: 999;
   top: 0; }
+  .header .brand {
+    margin-right: 1rem; }
   .header .container-text {
     background: white;
     position: absolute;
