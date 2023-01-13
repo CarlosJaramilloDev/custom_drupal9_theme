@@ -126,6 +126,27 @@ body {
     color: #53ace9;
     text-decoration: none; }
 
+.title--primary-dark {
+  font-family: 'Montserrat Bold';
+  font-size: 1.8rem;
+  color: #022941;
+  text-decoration: none; }
+  .title--primary-dark:hover {
+    font-family: 'Montserrat Bold';
+    font-size: 1.8rem;
+    color: #022941;
+    text-decoration: none; }
+  .title--primary-dark:focus {
+    font-family: 'Montserrat Bold';
+    font-size: 1.8rem;
+    color: #022941;
+    text-decoration: none; }
+  .title--primary-dark:visited {
+    font-family: 'Montserrat Bold';
+    font-size: 1.8rem;
+    color: #022941;
+    text-decoration: none; }
+
 .title--grey {
   font-family: 'Montserrat Bold';
   font-size: 1.8rem;
