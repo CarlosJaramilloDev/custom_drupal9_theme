@@ -222,6 +222,9 @@ body {
   width: 100vw;
   z-index: 999;
   top: 0; }
+  @media (max-width: 768px) {
+    .header {
+      min-height: 22rem; } }
   .header .brand {
     margin-right: 1rem; }
   .header .container-text {
@@ -248,13 +251,6 @@ body {
         padding: 4rem 2rem 1rem 2rem;
         width: 90vw;
         bottom: -4rem; } }
-    @media (max-width: 470px) {
-      .header .container-text {
-        bottom: -8rem; } }
-    @media (max-width: 350px) {
-      .header .container-text {
-        bottom: -12rem;
-        padding: 3rem 2rem 1rem 2rem; } }
   .header--small {
     height: auto;
     min-height: auto; }
@@ -265,6 +261,20 @@ body {
     font-size: 1.8rem;
     color: #FFF;
     padding: 2rem; }
+
+@media (max-width: 768px) {
+  #text-header p {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #text-header {
+    height: 2rem; } }
+
+#text-header-mobile {
+  display: none; }
+  @media (max-width: 768px) {
+    #text-header-mobile {
+      display: block; } }
 
 .navbar {
   display: flex;
@@ -681,6 +691,9 @@ body {
   position: relative;
   margin-top: 30rem;
   overflow-x: hidden; }
+  @media (max-width: 768px) {
+    .main {
+      margin-top: 18rem; } }
 
 .data-section {
   position: relative; }
