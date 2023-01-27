@@ -388,6 +388,7 @@ body {
   z-index: 998; }
 
 .search-input {
+  appearance: none;
   background: #FFF;
   font-family: "Montserrat Regular";
   font-size: 1.4rem;
