@@ -83,6 +83,10 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
     width: 100%;
 }
 
+@media (max-width: 565px) {
+    .breadcrumb {
+      display: none; } }
+
 /* Add */
 p.title, p.contact-title {
     width: fit-content;
