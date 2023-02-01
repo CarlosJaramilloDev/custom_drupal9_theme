@@ -1,103 +1,119 @@
 /* DKAN DRUPAL */
 .page-title {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 .node__meta {
-    font-size: 1em;
+  font-size: 1em;
 }
 
-.node__content { 
-    font-size: 1.35em;
-    word-spacing: 1px;
-    line-height: 1.4em;
+.node__content {
+  font-size: 1.35em;
+  word-spacing: 1px;
+  line-height: 1.4em;
 }
 
 .dc-search-sidebar-options {
-    background-color: transparent;
-    border: none;
-    padding: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 20px;
 }
 
 .dc-search-sidebar-options .show-more-container .dc-facet-option svg {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .dc-search-sidebar-options .toggle-block button {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .dc-search-sidebar-options .show-more-container .dc-facet-option {
-    align-items: left;
-    padding: 0;
+  align-items: left;
+  padding: 0;
 }
 
-.field.field--name-field-imagen-preview.field--type-image.field--label-hidden.field__item a img {
-    width: 100%;
-    height: auto;
+.field.field--name-field-imagen-preview.field--type-image.field--label-hidden.field__item
+  a
+  img {
+  width: 100%;
+  height: auto;
 }
 
 /* Bootstrap */
 
-
 /* Medata Design */
 
-div.results-card-header p, div.results-card-body p, div.results-headings p, div.results-info p, div.result-tag p {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+div.results-card-header p,
+div.results-card-body p,
+div.results-headings p,
+div.results-info p,
+div.result-tag p {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .margin-bottom {
-    margin-bottom: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .breadcrumb-list {
-    padding: 0;
-    overflow: hidden;
+  padding: 0;
+  overflow: hidden;
 }
 
-.menu-link:hover, .contact-link:hover {
-    color: white;
-    text-decoration: none;
+.menu-link:hover,
+.contact-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .contact-list {
-    padding: 0;
+  padding: 0;
 }
 
 .block .content {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .sidenav {
-    text-align: left;
+  text-align: left;
 }
 
 .data-section .data-group .grid {
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .data-actions {
-    width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 565px) {
-    .breadcrumb {
-      display: none; } }
+  .breadcrumb {
+    display: none;
+  }
+}
+
+@media (max-width: 565px) {
+  .data-container .button-close {
+    right: -20px;
+    top: -10px;
+  }
+}
 
 /* Add */
-p.title, p.contact-title {
-    width: fit-content;
+p.title,
+p.contact-title {
+  width: fit-content;
 }
 
 .separator::after {
-    width: calc(100% - var(--hrsize));
+  width: calc(100% - var(--hrsize));
 }
 .separator::before {
-    width: var(--hrsize);
+  width: var(--hrsize);
 }
 .contact-separator::after {
-    width: var(--hrsize);
+  width: var(--hrsize);
 }
