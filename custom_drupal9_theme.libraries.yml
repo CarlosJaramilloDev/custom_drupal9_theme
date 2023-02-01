@@ -11,3 +11,4 @@ global-scripts:
     https://kit.fontawesome.com/c610ff67f7.js: {}
     modules/accessibility/dist/main.bundle.js: {}
     js/accessibility.js: {}
+    js/medata.js: {}

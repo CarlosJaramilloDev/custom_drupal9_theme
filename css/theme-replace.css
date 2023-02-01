@@ -82,3 +82,28 @@ div.results-card-header p, div.results-card-body p, div.results-headings p, div.
 .data-actions {
     width: 100%;
 }
+
+/* Add */
+p.title, p.contact-title {
+    width: fit-content;
+}
+.separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: none;
+    margin: 1rem 0; 
+}
+.separator::after {
+    content: '';
+    height: 1px;
+    background: #888282;
+    width: calc(100% - var(--hrsize));
+}
+.separator::before {
+    height: 4px;
+    width: var(--hrsize);
+    background-color: #022941;
+    content: '';
+}
