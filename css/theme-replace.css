@@ -102,6 +102,10 @@ div.result-tag p {
   }
 }
 
+.button-secondary {
+    border: none;
+}
+
 /* Add */
 p.title,
 p.contact-title {
