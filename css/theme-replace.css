@@ -40,6 +40,10 @@
   height: auto;
 }
 
+.dc-results-list .dc-pagination-container .pagination li.active>a, .dc-results-list .dc-pagination-container .pagination li.active>a:focus, .dc-results-list .dc-pagination-container .pagination li.active>a:hover, .dc-results-list .dc-pagination-container .pagination li.active>span, .dc-results-list .dc-pagination-container .pagination li.active>span:focus, .dc-results-list .dc-pagination-container .pagination li.active>span:hover {
+  background-color: #53ace9;
+}
+
 /* Bootstrap */
 
 /* Medata Design */
@@ -150,4 +154,8 @@ p.contact-title {
 
 .data-technical-info-item {
   text-align: start;
+}
+
+.text-primary {
+  color: #53ace9 !important;
 }
