@@ -135,3 +135,11 @@ p.contact-title {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
+
+.subtitle--black {
+  margin-bottom: 0rem;
+}
+
+.data-technical-info-item {
+  text-align: start;
+}
