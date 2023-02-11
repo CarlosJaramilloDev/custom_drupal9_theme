@@ -44,6 +44,15 @@
   background-color: #53ace9;
 }
 
+.dc-pagination-container {
+  font-size: 1.2rem;
+}
+
+.dc-search-input.form-group input[type=text] {
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
 /* Bootstrap */
 
 /* Medata Design */
@@ -159,3 +168,4 @@ p.contact-title {
 .text-primary a {
   color: #53ace9 !important;
 }
+
