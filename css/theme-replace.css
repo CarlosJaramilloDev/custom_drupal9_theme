@@ -156,6 +156,6 @@ p.contact-title {
   text-align: start;
 }
 
-.text-primary {
+.text-primary a {
   color: #53ace9 !important;
 }
