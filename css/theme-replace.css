@@ -108,6 +108,7 @@ div.result-tag p {
 
 
 
+
 /* Add */
 p.title,
 p.contact-title {
@@ -122,6 +123,10 @@ p.contact-title {
 }
 .contact-separator::after {
   width: var(--hrsize);
+}
+
+.data-table tr:hover > td {
+  background-color: rgba(146, 190, 228, 0.14);
 }
 
 .data-table tr > td {
