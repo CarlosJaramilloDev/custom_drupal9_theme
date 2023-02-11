@@ -169,3 +169,7 @@ p.contact-title {
   color: #53ace9 !important;
 }
 
+.social-item a img {
+  width: auto;
+  margin-bottom: 0.3rem;
+}
