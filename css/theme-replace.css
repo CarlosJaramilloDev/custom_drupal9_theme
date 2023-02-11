@@ -106,6 +106,8 @@ div.result-tag p {
     border: none;
 }
 
+
+
 /* Add */
 p.title,
 p.contact-title {
@@ -120,4 +122,16 @@ p.contact-title {
 }
 .contact-separator::after {
   width: var(--hrsize);
+}
+
+.data-table tr > td {
+  background-color: rgba(146, 190, 228, 0.14);
+}
+
+.data-table th, .data-table td {
+  white-space: nowrap;
+  padding-right: 3.5rem;
+  padding-left: 0.7rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
 }
