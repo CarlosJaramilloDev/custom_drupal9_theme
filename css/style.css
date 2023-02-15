@@ -784,57 +784,59 @@ body {
       color: #fa8d2d;
       box-shadow: 0 0 15px -2px rgba(76, 77, 95, 0.3); }
       .category-section .category-info:hover .icon-01 {
-        background-image: url("../assets/icons/topics/orange/01_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/1.svg"); }
       .category-section .category-info:hover .icon-02 {
-        background-image: url("../assets/icons/topics/orange/02_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/2.svg"); }
       .category-section .category-info:hover .icon-03 {
-        background-image: url("../assets/icons/topics/orange/03_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/3.svg"); }
       .category-section .category-info:hover .icon-04 {
-        background-image: url("../assets/icons/topics/orange/04_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/4.svg"); }
       .category-section .category-info:hover .icon-05 {
-        background-image: url("../assets/icons/topics/orange/05_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/5.svg"); }
       .category-section .category-info:hover .icon-06 {
-        background-image: url("../assets/icons/topics/orange/06_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/6.svg"); }
       .category-section .category-info:hover .icon-07 {
-        background-image: url("../assets/icons/topics/orange/07_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/7.svg"); }
       .category-section .category-info:hover .icon-08 {
-        background-image: url("../assets/icons/topics/orange/08_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/8.svg"); }
       .category-section .category-info:hover .icon-09 {
-        background-image: url("../assets/icons/topics/orange/09_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/9.svg"); }
       .category-section .category-info:hover .icon-10 {
-        background-image: url("../assets/icons/topics/orange/10_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/10.svg"); }
       .category-section .category-info:hover .icon-11 {
-        background-image: url("../assets/icons/topics/orange/11_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/11.svg"); }
       .category-section .category-info:hover .icon-12 {
-        background-image: url("../assets/icons/topics/orange/12_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/12.svg"); }
       .category-section .category-info:hover .icon-13 {
-        background-image: url("../assets/icons/topics/orange/13_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/13.svg"); }
       .category-section .category-info:hover .icon-14 {
-        background-image: url("../assets/icons/topics/orange/14_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/14.svg"); }
       .category-section .category-info:hover .icon-15 {
-        background-image: url("../assets/icons/topics/orange/15_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/15.svg"); }
       .category-section .category-info:hover .icon-16 {
-        background-image: url("../assets/icons/topics/orange/16_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/16.svg"); }
       .category-section .category-info:hover .icon-17 {
-        background-image: url("../assets/icons/topics/orange/17_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/17.svg"); }
       .category-section .category-info:hover .icon-18 {
-        background-image: url("../assets/icons/topics/orange/18_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/18.svg"); }
       .category-section .category-info:hover .icon-19 {
-        background-image: url("../assets/icons/topics/orange/19_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/19.svg"); }
       .category-section .category-info:hover .icon-20 {
-        background-image: url("../assets/icons/topics/orange/20_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/20.svg"); }
       .category-section .category-info:hover .icon-21 {
-        background-image: url("../assets/icons/topics/orange/21_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/21.svg"); }
       .category-section .category-info:hover .icon-22 {
-        background-image: url("../assets/icons/topics/orange/22_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/22.svg"); }
       .category-section .category-info:hover .icon-23 {
-        background-image: url("../assets/icons/topics/orange/23_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/23.svg"); }
       .category-section .category-info:hover .icon-24 {
-        background-image: url("../assets/icons/topics/orange/24_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/24.svg"); }
       .category-section .category-info:hover .icon-25 {
-        background-image: url("../assets/icons/topics/orange/25_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/25.svg"); }
       .category-section .category-info:hover .icon-26 {
-        background-image: url("../assets/icons/topics/orange/26_naranja.svg"); }
+        background-image: url("../assets/icons/topics/orange/26.svg"); }
+      .category-section .category-info:hover .icon-g {
+        background-image: url("../assets/icons/topics/orange/g.svg"); }
       .category-section .category-info:hover .text {
         color: #fa8d2d; }
 
@@ -1116,134 +1118,139 @@ body {
     max-height: 40px; }
 
 .icon-01 {
-  background-image: url("../assets/icons/topics/black/01_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/1.svg"); }
   .icon-01:hover {
-    background-image: url("../assets/icons/topics/orange/01_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/1.svg"); }
 
 .icon-02 {
-  background-image: url("../assets/icons/topics/black/02_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/2.svg"); }
   .icon-02:hover {
-    background-image: url("../assets/icons/topics/orange/02_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/2.svg"); }
 
 .icon-03 {
-  background-image: url("../assets/icons/topics/black/03_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/3.svg"); }
   .icon-03:hover {
-    background-image: url("../assets/icons/topics/orange/03_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/3.svg"); }
 
 .icon-04 {
-  background-image: url("../assets/icons/topics/black/04_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/4.svg"); }
   .icon-04:hover {
-    background-image: url("../assets/icons/topics/orange/04_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/4.svg"); }
 
 .icon-05 {
-  background-image: url("../assets/icons/topics/black/05_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/5.svg"); }
   .icon-05:hover {
-    background-image: url("../assets/icons/topics/orange/05_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/5.svg"); }
 
 .icon-06 {
-  background-image: url("../assets/icons/topics/black/06_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/6.svg"); }
   .icon-06:hover {
-    background-image: url("../assets/icons/topics/orange/06_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/6.svg"); }
 
 .icon-07 {
-  background-image: url("../assets/icons/topics/black/07_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/7.svg"); }
   .icon-07:hover {
-    background-image: url("../assets/icons/topics/orange/07_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/7.svg"); }
 
 .icon-08 {
-  background-image: url("../assets/icons/topics/black/08_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/8.svg"); }
   .icon-08:hover {
-    background-image: url("../assets/icons/topics/orange/08_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/8.svg"); }
 
 .icon-09 {
-  background-image: url("../assets/icons/topics/black/09_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/9.svg"); }
   .icon-09:hover {
-    background-image: url("../assets/icons/topics/orange/09_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/9.svg"); }
 
 .icon-10 {
-  background-image: url("../assets/icons/topics/black/10_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/10.svg"); }
   .icon-10:hover {
-    background-image: url("../assets/icons/topics/orange/10_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/10.svg"); }
 
 .icon-11 {
-  background-image: url("../assets/icons/topics/black/11_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/11.svg"); }
   .icon-11:hover {
-    background-image: url("../assets/icons/topics/orange/11_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/11.svg"); }
 
 .icon-12 {
-  background-image: url("../assets/icons/topics/black/12_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/12.svg"); }
   .icon-12:hover {
-    background-image: url("../assets/icons/topics/orange/12_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/12.svg"); }
 
 .icon-13 {
-  background-image: url("../assets/icons/topics/black/13_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/13.svg"); }
   .icon-13:hover {
-    background-image: url("../assets/icons/topics/orange/13_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/13.svg"); }
 
 .icon-14 {
-  background-image: url("../assets/icons/topics/black/14_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/14.svg"); }
   .icon-14:hover {
-    background-image: url("../assets/icons/topics/orange/14_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/14.svg"); }
 
 .icon-15 {
-  background-image: url("../assets/icons/topics/black/15_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/15.svg"); }
   .icon-15:hover {
-    background-image: url("../assets/icons/topics/orange/15_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/15.svg"); }
 
 .icon-16 {
-  background-image: url("../assets/icons/topics/black/16_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/16.svg"); }
   .icon-16:hover {
-    background-image: url("../assets/icons/topics/orange/16_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/16.svg"); }
 
 .icon-17 {
-  background-image: url("../assets/icons/topics/black/17_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/17.svg"); }
   .icon-17:hover {
-    background-image: url("../assets/icons/topics/orange/17_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/17.svg"); }
 
 .icon-18 {
-  background-image: url("../assets/icons/topics/black/18_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/18.svg"); }
   .icon-18:hover {
-    background-image: url("../assets/icons/topics/orange/18_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/18.svg"); }
 
 .icon-19 {
-  background-image: url("../assets/icons/topics/black/19_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/19.svg"); }
   .icon-19:hover {
-    background-image: url("../assets/icons/topics/orange/19_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/19.svg"); }
 
 .icon-20 {
-  background-image: url("../assets/icons/topics/black/20_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/20.svg"); }
   .icon-20:hover {
-    background-image: url("../assets/icons/topics/orange/20_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/20.svg"); }
 
 .icon-21 {
-  background-image: url("../assets/icons/topics/black/21_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/21.svg"); }
   .icon-21:hover {
-    background-image: url("../assets/icons/topics/orange/21_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/21.svg"); }
 
 .icon-22 {
-  background-image: url("../assets/icons/topics/black/22_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/22.svg"); }
   .icon-22:hover {
-    background-image: url("../assets/icons/topics/orange/22_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/22.svg"); }
 
 .icon-23 {
-  background-image: url("../assets/icons/topics/black/23_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/23.svg"); }
   .icon-23:hover {
-    background-image: url("../assets/icons/topics/orange/23_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/23.svg"); }
 
 .icon-24 {
-  background-image: url("../assets/icons/topics/black/24_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/24.svg"); }
   .icon-24:hover {
-    background-image: url("../assets/icons/topics/orange/24_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/24.svg"); }
 
 .icon-25 {
-  background-image: url("../assets/icons/topics/black/25_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/25.svg"); }
   .icon-25:hover {
-    background-image: url("../assets/icons/topics/orange/25_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/25.svg"); }
 
 .icon-26 {
-  background-image: url("../assets/icons/topics/black/26_negro.svg"); }
+  background-image: url("../assets/icons/topics/black/26.svg"); }
   .icon-26:hover {
-    background-image: url("../assets/icons/topics/orange/26_naranja.svg"); }
+    background-image: url("../assets/icons/topics/orange/26.svg"); }
+
+.icon-g {
+  background-image: url("../assets/icons/topics/black/g.svg"); }
+  .icon-g:hover {
+    background-image: url("../assets/icons/topics/orange/g.svg"); }
 
 .movility {
   display: grid;
